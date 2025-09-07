@@ -103,14 +103,14 @@
 .color {
   position:relative;
   top:-150px;
-  left:270px;
+  left:70px;
   font-size: 45px;
   color: #bc6;
 }
 .flash {
   position:relative;
   top:-220px;
-  left:315px;
+  left:115px;
   font-size: 45px;
   color: #bc6;
 }
@@ -119,40 +119,8 @@
 }
 @media(max-width: 500px) {
   #robot {
-    position: relative;
-    left: 50px;
-  }
-  .beep {
-    left: 90px;
-  }
-  .brain {
-    left: 40px;
-  }
-  .left {
-    font-size: 150px;
-    top: -200px;
-    left: -120px;
-  }
-  .right {
-    font-size: 150px;
-    top: -400px;
-    left: 120px;
-  }
-  .foot {
-    left: 70px;
-    top: -10px;
-  }
-  .color {
     position:relative;
-    top:-100px;
-    left:130px;
-    font-size: 30px;
-  }
-  .flash {
-    position:relative;
-    top:-140px;
-    left:160px;
-    font-size: 30px;
+    max-height: 100px;
   }
 }
 /*background-color: be6;*/
@@ -169,10 +137,11 @@
     <div class="right">j</div>
   </div>
   <div class="foot"></div>
+  <button class="flash">O</button>
+  <button class="color">X</button>
 </div>
 
-<button class="flash">O</button>
-<button class="color">X</button>
+
 
 <script>
 // When eyes button is clicked, toggle laser class on brain
